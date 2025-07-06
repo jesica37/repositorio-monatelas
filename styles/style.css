@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* Tipografia importada*/
+/*font-family: "Work Sans", sans-serif;*/
+
+/*reset de css*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo del body con herencia*/
+body {
+  font-family: "Work Sans", sans-serif;
+  background-color: #faebd7;
+}
+
+header {
+  padding: 16px;
+}
+/* Estilos de la nav con clases*/
+.nav-lista {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-lista ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.nav-lista ul li {
+  list-style-type: none;
+}
+
+.nav-link {
+  color: #dc143c;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+/* Estilo de etiquetas <h1> y <p>*/
+h1 {
+  color: #cd5c5c;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+p {
+  color: #000000;
+  font-size: 1.1em;
+  margin: 20px;
+}
+
+/* estilo de pagina de contacto con herencia de elemento padre e hijo*/
+section {
+  color: #696969;
+}
+
+section h4 {
+  color: #000000;
+}
+
+/*estilo de h2 y h3 con clases */
+.categorias {
+  color: #a52a2a;
+} 
+
+.subtitulos {
+  color: #d2691e;
+}
+
+/*estilos de imagenes de galeria*/
+img {
+  width:  300px;      
+  height: 300px;
+}
+
+/*logo*/
+.mi-logo {
+  width:  140px;      
+  height: 140px;
+  display: block;
+  margin: 0 auto;
+}   
+
+/*footer*/
+.img-footer {
+  width:  80px;      
+  height: 80px;
+}  
+
+/*frente de local*/
+.im-frente {
+  width:  600px;      
+  height: 400px;
+  display: block;
+  margin: 0 auto;
+} 
+
+/*telas y merceria*/
+.im-inicio {
+  width:  300px;      
+  height: 300px;
+  display: block;
+  margin: 0 auto;
+} 
+
+.telas-container {
+  margin: 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+} 
+
+.telas {
+  padding: 16px;
+  border: 1px solid black;
+  border-radius: 5px ;
+  width: 300px;
+} 
+
+.telas img {
+  width: 100%;
+} 
+
+.telas h5 {
+  margin: 16px 0;
+}
+
+.telas-button {
+  text-decoration: none;
+  color: black;
+  padding: 8px;
+  border: 1px solid black;
+  display: inline-block;
+  border-radius: 5px;
+}
