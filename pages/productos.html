@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <!--CSS-->
     <link rel="stylesheet" href="../styles/style.css">
     <title>Monatelas web</title>
@@ -10,24 +12,29 @@
 <body>
     <header>
         <img src="../assets/logomonatelas.html.jpeg" class="mi-logo">
-        <nav class="nav-lista">
-            <ul>
-                <li class="nav-lista">
-                    <a class="nav-link" href="../index.html">Inicio</a>
-                </li>
-                <li class="nav-lista">
-                    <a class="nav-link" href="./nosotros.html">Nosotros</a>
-                </li>
-                <li class="nav-lista">
-                    <a class="nav-link" href="#">Productos</a>
-                </li>
-                <li class="nav-lista">
-                    <a class="nav-link" href="./producciones.html">Producciones</a>
-                </li>
-                <li class="nav-lista">
-                    <a class="nav-link" href="./contacto.html">Contacto</a>
-                </li>
-            </ul>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand-mio" href="../index.html">Inicio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <img class="nav-menu" src="../assets/icono-menu.svg">
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link-mio" aria-current="page" href="./nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link-mio" href="#">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link-mio" href="./producciones.html">Producciones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link-mio" href="./contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <main>
@@ -86,40 +93,121 @@
                     <a href="#" class="telas-button"> Ver detalles</a>
                 </div>
                 <div class="telas">
-                     <img src="../assets/panalisa.html.jpeg" >
+                    <img src="../assets/panalisa.html.jpeg" >
                     <p>Pana suave lisa, ancho 1.50 mt</p>
                     <h5>$9.000</h5>
                     <a href="#" class="telas-button"> Ver detalles</a>
                 </div>
-            </section>
-        
-        
-       
-            
+            </section>   
         <h4 class="categorias">Novias / fiestas</h4>
-        <img src="../assets/razo.html.jpeg" >
-        <img src="../assets/tul.html.jpeg" >
-        <img src="../assets/tulBlanco.html.jpeg" >
-        <img src="../assets/tuldorado.html.jpeg" >
+             <section class="telas-container"> 
+                <div class="telas">
+                    <img src="../assets/razo.html.jpeg" >
+                    <p>Raso color liso, ancho 1.50 mt</p>
+                    <h5>$9.000</h5>
+                    <a href="#" class="telas-button"> Ver detalles</a>
+                </div>
+                <div class="telas">
+                    <img src="../assets/tul.html.jpeg" >
+                    <p>Tul bordado liso, ancho 1.50 mt</p>
+                    <h5>$9.000</h5>
+                    <a href="#" class="telas-button"> Ver detalles</a>
+                </div>
+                <div class="telas">
+                    <img src="../assets/tulBlanco.html.jpeg" >
+                    <p>Tul nupcial blanco, ancho 1.50 mt</p>
+                    <h5>$9.000</h5>
+                    <a href="#" class="telas-button"> Ver detalles</a>
+                </div>
+                <div class="telas">
+                    <img src="../assets/tuldorado.html.jpeg" >
+                    <p>Raso color liso, ancho 1.50 mt</p>
+                    <h5>$9.000</h5>
+                    <a href="#" class="telas-button"> Ver detalles</a>
+                </div>
+            </section>
         <h3>Mercería</h3>
         <h4 class="categorias">Para tus tejidos</h4>
-        <img src="../assets/lanas.html.jpeg" >
-        <img src="../assets/macrame.html.jpeg" >
-        <img src="../assets/puntillas.html.jpeg">
-        <img src="../assets/puntollaDorada.html.jpeg">
-            
+            <section class="telas-container"> 
+                <div class="telas">
+                    <img src="../assets/lanas.html.jpeg" >
+                    <p>Lana Cisne</p>
+                    <h5>$9.000</h5>
+                    <a href="#" class="telas-button"> Ver detalles</a>
+                </div>
+                <div class="telas">
+                    <img src="../assets/macrame.html.jpeg" >
+                    <p>Hilo macramé</p>
+                    <h5>$9.000</h5>
+                    <a href="#" class="telas-button"> Ver detalles</a>
+                </div>
+                <div class="telas">
+                    <img src="../assets/puntillas.html.jpeg">
+                    <p>Puntilla algodón</p>
+                    <h5>$9.000</h5>
+                    <a href="#" class="telas-button"> Ver detalles</a>
+                </div>
+                <div class="telas">
+                    <img src="../assets/puntollaDorada.html.jpeg">
+                    <p>Puntilla dorada</p>
+                    <h5>$9.000</h5>
+                    <a href="#" class="telas-button"> Ver detalles</a>
+                </div>
+            </section>    
         <h4 class="categorias">Para recuperar prendas</h4>
-        <img src="../assets/holiCono.html.jpeg" >
-        <img src="../assets/cierres.html.jpeg" >
-        <img src="../assets/cintas.html.jpeg">
-        <img src="../assets/pitucon.html.jpeg">
-            
+            <section class="telas-container"> 
+                <div class="telas">
+                    <img src="../assets/holiCono.html.jpeg" >
+                    <p>Cono de hilo</p>
+                    <h5>$9.000</h5>
+                    <a href="#" class="telas-button"> Ver detalles</a>
+                </div>
+                <div class="telas">
+                    <img src="../assets/cierres.html.jpeg" >
+                    <p>Cierres reforzados</p>
+                    <h5>$9.000</h5>
+                    <a href="#" class="telas-button"> Ver detalles</a>
+                </div>
+                <div class="telas">
+                    <img src="../assets/cintas.html.jpeg">
+                    <p>Cintas </p>
+                    <h5>$9.000</h5>
+                    <a href="#" class="telas-button"> Ver detalles</a>
+                </div>
+                <div class="telas">
+                    <img src="../assets/pitucon.html.jpeg">
+                    <p>Pitucon</p>
+                    <h5>$9.000</h5>
+                    <a href="#" class="telas-button"> Ver detalles</a>
+                </div>
+            </section>     
         <h4 class="categorias">Para tus creaciones</h4>
-        <img src="../assets/stras.html.jpeg" >
-        <img src="../assets/totora.html.jpeg" >
-        <img src="../assets/perlas.html.jpeg" >
-        <img src="../assets/cintaMochi.html.jpeg">
-    
+            <section class="telas-container"> 
+                <div class="telas">
+                    <img src="../assets/stras.html.jpeg" >
+                    <p>Stras </p>
+                    <h5>$9.000</h5>
+                    <a href="#" class="telas-button"> Ver detalles</a>
+                </div>
+                <div class="telas">
+                    <img src="../assets/totora.html.jpeg" >
+                    <p>Totora</p>
+                    <h5>$9.000</h5>
+                    <a href="#" class="telas-button"> Ver detalles</a>
+                </div>
+                <div class="telas">
+                    <img src="../assets/perlas.html.jpeg" >
+                    <p>Perlas sueltas</p>
+                    <h5>$9.000</h5>
+                    <a href="#" class="telas-button"> Ver detalles</a>
+                </div>
+                <div class="telas">
+                    <img src="../assets/cintaMochi.html.jpeg">
+                    <p>Cinta mochilera</p>
+                    <h5>$9.000</h5>
+                    <a href="#" class="telas-button"> Ver detalles</a>
+                </div>
+            </section> 
     </main>
     <footer>
         <h5>Contáctanos</h5>
@@ -129,7 +217,8 @@
         <p>@</p>
         <p>Copyright Monatelas - 2025</p>
         <img src="../assets/logomonatelas.html.jpeg" class="img-footer">
-        </footer>
-
+    </footer>
+    <!--BOOTSTRAP JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>
 </html>

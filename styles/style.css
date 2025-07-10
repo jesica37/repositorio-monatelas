@@ -19,7 +19,7 @@ header {
   padding: 16px;
 }
 /* Estilos de la nav con clases*/
-.nav-lista {
+/*.nav-lista {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -42,7 +42,46 @@ header {
   color: #dc143c;
   text-decoration: none;
   font-size: 24px;
+}*/
+
+.nav-menu  {
+  width: 30px;
+  height: 30px;
+  background-color: #deb887;
+  color: #696969;
+  text-decoration: none;
+  padding: 8px;
+  border: 1px solid rgb(143, 140, 140);
+  display: inline-block;
+  border-radius: 5px;
 }
+
+
+.navbar-brand-mio {
+padding: 8px;
+margin-right: 8px;
+color: #dc143c;
+text-decoration: none;
+font-size: 24px;
+}
+
+.nav-link-mio  {
+padding: 8px;
+display: block;
+color: #dc143c;
+text-decoration: none;
+font-size: 24px;
+}*/
+
+/*.navbar-btn-mio  {
+  background-color: #deb887;
+  color: #696969;
+  text-decoration: none;
+  padding: 8px;
+  border: 1px solid rgb(143, 140, 140);
+  display: inline-block;
+  border-radius: 5px;
+} 
 
 /* Estilo de etiquetas <h1> y <p>*/
 h1 {
