@@ -216,7 +216,7 @@ img {
   margin-inline-end: 16px;
   border-radius: 8px;
 } */
-
+/*productos*/
 .telas-container {
   margin: 16px;
   display: flex;
@@ -242,6 +242,7 @@ img {
   margin: 16px 0;
 }
 
+
 .telas-button {
   text-decoration: none;
   color: black;
@@ -249,7 +250,26 @@ img {
   border: 1px solid black;
   display: inline-block;
   border-radius: 5px;
+  background-color: transparent;
 }
+
+/*producciones*/
+.arreglos-container  {
+  margin-top: 20px 20px 20px 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img-arreglo {
+  width: 200px;
+  height: 300px;
+  margin: 30px;
+}
+
+/*contacto*/
 
 form {
   margin: 20px 30px 40px 30px;
@@ -305,6 +325,10 @@ h5 {
       height: 180px;
     }
     .telas-container {
+        flex-direction: column;
+        gap: 32px;
+    }
+    .arreglos-container  {
         flex-direction: column;
         gap: 32px;
     }
