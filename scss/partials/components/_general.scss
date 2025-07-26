@@ -1,0 +1,105 @@
+h1 {
+  color: #cd5c5c;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h3 {
+  color: #696969;
+  margin-left: 30px;
+}
+
+h5 {
+  margin-top: 40px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+h6 {
+  color: #711212;
+  margin: 24px 30px;
+}
+
+.categorias {
+  color: #a52a2a;
+  margin-left: 30px;
+}
+
+.subtitulos {
+  color: #d2691e;
+  margin: 30px;
+}
+
+.telas h5 {
+  margin: 16px 0;
+}
+
+.nombre-tela {
+  color: #d9d5d5fa;
+  font-size: 3em;
+  background-color: #9d9b9b;
+}
+
+p {
+  color: #000000;
+  font-size: 1.1em;
+  margin: 20px;
+}
+
+.p-carrusel {
+  color: rgba(250, 245, 245, 0.986);
+  background-color: #b39e9e;
+  font-family: "Merienda", cursive;
+  font-size: 2em;
+  margin: 20px;
+}
+
+.parrafo-direccion {
+  color: #000000;
+  font-size: 1.1em;
+  margin: 40px;
+}
+
+section {
+  color: #696969;
+
+  h4 {
+    color: #000000;
+    margin-top: 30px;
+    margin-left: 30px;
+    }
+}
+
+img {
+  width: 300px;
+  height: 300px;
+}
+
+.figure-img-mio {
+  margin-bottom: 20px;
+}
+
+.img-frente {
+  width: 500px;
+}
+
+.figure-caption-mio {
+  color: #696969;
+  font-size: 1.1em;
+  margin-top: 8px;
+}
+
+.arreglos-container {
+  margin: 20px 30px 20px 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img-arreglo {
+  width: 200px;
+  height: 300px;
+  margin: 30px;
+}

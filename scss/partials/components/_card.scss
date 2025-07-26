@@ -1,0 +1,24 @@
+.telas-container {
+  margin: 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.telas {
+  padding: 16px;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 250px;
+}
+
+.telas img {
+  width: 100%;
+}
+
+.telas h5 {
+  margin: 16px 0;
+}

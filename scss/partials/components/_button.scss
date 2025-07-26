@@ -1,0 +1,40 @@
+@use "../utilities/variables";
+
+.telas-button {
+  text-decoration: none;
+  color: black;
+  padding: 4px;
+  border: 1px solid black;
+  display: inline-block;
+  border-radius: 5px;
+  background-color: transparent;
+
+  &:hover {
+    background-color: $color-principal;
+    }
+}
+
+.btn-mio {
+  --bs-btn-padding-x: 10px;
+  --bs-btn-padding-y: 10px;
+  --bs-btn-font-family: ;
+  --bs-btn-font-size: 1rem;
+  --bs-btn-font-weight: 300;
+  --bs-btn-line-height: 1.5;
+  display: inline-block;
+  border-radius: 5px;
+  color: #000000;
+  background-color: #ead1ce;
+  border: 1px solid #696969;
+  margin-left: 16px;
+}
+
+.redes-button {
+  text-decoration: none;
+  color: black;
+  padding: 1px;
+  border: 1px solid rgb(250, 234, 234);
+  display: inline-block;
+  border-radius: 2px;
+  background-color: transparent;
+}
