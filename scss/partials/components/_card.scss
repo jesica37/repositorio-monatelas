@@ -6,25 +6,25 @@
    margin: 16px;
    gap: 40px;
    flex-wrap: wrap;
+   
   .telas {
     padding: 16px;
     border: 1px solid variables.$pure-black;
     border-radius: 5px;
     width: 250px;
-    p {
+    }
+    &:hover {
+      transform: scale(0.9);
+    }
+  p {
     color: variables.$color-parrafo;
     font-size: 1.1em;
     margin: variables.$p-margin;
     }
-    .telas h5 {
+  h5 {
     margin: 16px 0;
     }
-    /*
-    .telas img {
-    width: 200px;
-    }*/
-  }
- }
+}
 
 @media (max-width: 450px) {
   .telas-container {
@@ -39,4 +39,4 @@
   padding: 4px;
   border-radius: 2px;  
   }
- }
+}

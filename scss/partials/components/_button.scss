@@ -1,15 +1,8 @@
 @use "../utilities/variables";
-
-.button {
-  display: inline-block;
-  text-decoration: none;
-  padding: 8px;
-  color: variables.$pure-black;
-  border-radius: 5px;
-}
+@use "../utilities/extend";
 
 .telas-button {
-  @extend .button;
+  @extend %button;
   border: 1px solid variables.$pure-black;
   background-color: variables.$fondo-trans;
 
@@ -19,7 +12,7 @@
 }
 
 .btn-mio {
-  @extend .button;
+  @extend %button;
   --bs-btn-padding-y: 10px;
   --bs-btn-font-family: ;
   --bs-btn-font-size: 1rem;
@@ -32,7 +25,7 @@
 }
 
 .redes-button {
-  @extend .button;
+  @extend %button;
   border: 1px solid rgb(250, 234, 234);
   background-color: variables.$fondo-trans;
 }

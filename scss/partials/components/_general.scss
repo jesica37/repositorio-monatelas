@@ -10,6 +10,8 @@ h1 {
 h3 {
   color: variables.$color-texto;
   margin-left: 30px;
+  margin-right: 30px;
+  background-image: linear-gradient(to bottom, rgb(246, 238, 225), rgb(246, 178, 75));
 }
 
 h5 {
@@ -85,6 +87,13 @@ img {
     margin-top: 8px;
     }
 }
+
+.gradient {
+  margin-right: 30px;
+  background-image: linear-gradient(to right, rgb(249, 151, 151), rgb(240, 225, 227));
+}
+
+
 
 @media (max-width: 450px) {
   .arreglos-container {

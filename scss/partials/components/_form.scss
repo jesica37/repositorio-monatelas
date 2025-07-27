@@ -9,23 +9,20 @@ form {
   background: #f2e0c9;
   padding: 20px;
   border-radius: 8px;
-}
-
-label {
+  label {
   text-align: right;
   padding-right: 10px;
   line-height: 2;
-}
-
-input textarea {
+  }
+  input textarea {
   width: 100%;
   padding: variables.$padding;
   font-size: 1rem;
-}
-
-textarea {
+  }
+  textarea {
   resize: vertical;
   min-height: 100px;
+  }
 }
 
 @media (max-width: 450px) {
