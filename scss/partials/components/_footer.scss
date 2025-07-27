@@ -1,10 +1,10 @@
+@use "../utilities/mixins";
+
 .footer {
+  @include mixins.flex(row, space-around, center);
   margin-top: 80px;
   margin-bottom: 32px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
   gap: 24px;
 }
 
@@ -18,4 +18,21 @@
   height: 30px;
   margin-left: 30px;
   margin-right: 10px;
+}
+
+@media (max-width: 450px) {
+  .footer {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+    }
+
+  .iconos {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }

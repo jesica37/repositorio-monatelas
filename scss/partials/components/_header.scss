@@ -28,7 +28,7 @@ header {
   margin-right: variables.$padding;
   color: variables.$color-principal;
   text-decoration: none;
-  font-size: variables.$f-size;
+  font-size: variables.$p-size;
 }
 
 .nav-link-mio {
@@ -36,5 +36,31 @@ header {
   display: block;
   color: variables.$color-principal;
   text-decoration: none;
-  font-size: variables.$f-size;
+  font-size: variables.$p-size;
 }
+
+@media (max-width: 450px) {
+  body {
+    margin: 0 16px;
+  }
+
+  .mi-logo {
+  width: 80px;
+  height: 80px;
+  display: block;
+  margin: 0 auto;
+}
+
+  .nav-link-mio {
+  padding: 4px;
+  margin: 0px 30px 0px 0px;
+  font-size: 16px;
+}
+
+  .navbar-brand-mio {
+  padding: 4px;
+  margin: 10px 30px 6px 0px;
+  font-size: 16px;
+  }
+}
+

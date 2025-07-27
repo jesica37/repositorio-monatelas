@@ -1,40 +1,38 @@
 @use "../utilities/variables";
 
-.telas-button {
-  text-decoration: none;
-  color: black;
-  padding: 4px;
-  border: 1px solid black;
+.button {
   display: inline-block;
+  text-decoration: none;
+  padding: 8px;
+  color: variables.$pure-black;
   border-radius: 5px;
-  background-color: transparent;
+}
+
+.telas-button {
+  @extend .button;
+  border: 1px solid variables.$pure-black;
+  background-color: variables.$fondo-trans;
 
   &:hover {
-    background-color: $color-principal;
+    background-color: variables.$color-principal;
     }
 }
 
 .btn-mio {
-  --bs-btn-padding-x: 10px;
+  @extend .button;
   --bs-btn-padding-y: 10px;
   --bs-btn-font-family: ;
   --bs-btn-font-size: 1rem;
   --bs-btn-font-weight: 300;
   --bs-btn-line-height: 1.5;
-  display: inline-block;
-  border-radius: 5px;
-  color: #000000;
+  color: variables.$color-parrafo;
   background-color: #ead1ce;
-  border: 1px solid #696969;
+  border: 1px solid variables.$color-texto;
   margin-left: 16px;
 }
 
 .redes-button {
-  text-decoration: none;
-  color: black;
-  padding: 1px;
+  @extend .button;
   border: 1px solid rgb(250, 234, 234);
-  display: inline-block;
-  border-radius: 2px;
-  background-color: transparent;
+  background-color: variables.$fondo-trans;
 }

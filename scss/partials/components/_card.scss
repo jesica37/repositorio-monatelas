@@ -1,24 +1,42 @@
+@use "../utilities/variables";
+@use "../utilities/mixins";
+
 .telas-container {
-  margin: 16px;
-  display: flex;
-  flex-direction: row;
-  gap: 40px;
-  flex-wrap: wrap;
+  @include mixins.flex(row, center, center);
+   margin: 16px;
+   gap: 40px;
+   flex-wrap: wrap;
+  .telas {
+    padding: 16px;
+    border: 1px solid variables.$pure-black;
+    border-radius: 5px;
+    width: 250px;
+    p {
+    color: variables.$color-parrafo;
+    font-size: 1.1em;
+    margin: variables.$p-margin;
+    }
+    .telas h5 {
+    margin: 16px 0;
+    }
+    /*
+    .telas img {
+    width: 200px;
+    }*/
+  }
+ }
+
+@media (max-width: 450px) {
+  .telas-container {
+  margin: 0px;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-}
+  gap: 8px;
+  }
 
-.telas {
-  padding: 16px;
-  border: 1px solid black;
-  border-radius: 5px;
-  width: 250px;
-}
-
-.telas img {
-  width: 100%;
-}
-
-.telas h5 {
-  margin: 16px 0;
-}
+  .telas {
+  padding: 4px;
+  border-radius: 2px;  
+  }
+ }
