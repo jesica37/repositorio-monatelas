@@ -3,44 +3,48 @@
 
 .telas-container {
   @include mixins.flex(row, center, center);
-   margin: 16px;
-   gap: 40px;
-   flex-wrap: wrap;
-   
+  margin: 16px;
+  gap: 40px;
+  flex-wrap: wrap;
+
   .telas {
     padding: 16px;
     border: 1px solid variables.$pure-black;
     border-radius: 5px;
     width: 250px;
-    }
-    &:hover {
-      transform: scale(0.9);
-    }
-  .telas img {
-  width: 200px;
-  height: 200px;
   }
+
+  &:hover {
+    transform: scale(0.9);
+  }
+
+  .telas img {
+    width: 200px;
+    height: 200px;
+  }
+
   p {
     color: variables.$color-parrafo;
     font-size: 1.1em;
     margin: variables.$p-margin;
-    }
+  }
+
   h5 {
     margin: 16px 0;
-    }
+  }
 }
 
 @media (max-width: 450px) {
   .telas-container {
-  margin: 0px;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
+    margin: 0px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
   }
 
   .telas {
-  padding: 4px;
-  border-radius: 2px;  
+    padding: 4px;
+    border-radius: 2px;
   }
 }

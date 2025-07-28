@@ -49,12 +49,13 @@ section {
     color: variables.$color-parrafo;
     margin-top: 30px;
     margin-left: 30px;
-    }
-    .parrafo-direccion {
+  }
+
+  .parrafo-direccion {
     color: variables.$color-parrafo;
     font-size: 1.1em;
     margin: 40px;
-    }
+  }
 }
 
 img {
@@ -71,22 +72,22 @@ img {
 }
 
 .arreglos-container {
-   @include mixins.flex(row, space-between, center);
-   margin: 20px 30px 20px 30px;
-   display: flex;
-   flex-wrap: wrap;
+  @include mixins.flex(row, space-between, center);
+  margin: 20px 30px 20px 30px;
+  display: flex;
+  flex-wrap: wrap;
 
-   .img-arreglo {
+  .img-arreglo {
     width: 200px;
     height: 300px;
     margin: 30px;
-    }
+  }
 
-    .figure-caption-mio {
+  .figure-caption-mio {
     color: variables.$color-texto;
     font-size: 1.1em;
     margin-top: 8px;
-    }
+  }
 }
 
 .gradient {
@@ -98,8 +99,7 @@ img {
 
 @media (max-width: 450px) {
   .arreglos-container {
-  flex-direction: column;
-  gap: 32px;
+    flex-direction: column;
+    gap: 32px;
   }
 }
-
