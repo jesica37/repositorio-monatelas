@@ -16,6 +16,10 @@
     &:hover {
       transform: scale(0.9);
     }
+  .telas img {
+  width: 200px;
+  height: 200px;
+  }
   p {
     color: variables.$color-parrafo;
     font-size: 1.1em;

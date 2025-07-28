@@ -246,6 +246,10 @@ img {
 .telas-container:hover {
   transform: scale(0.9);
 }
+.telas-container .telas img {
+  width: 200px;
+  height: 200px;
+}
 .telas-container p {
   color: #000000;
   font-size: 1.1em;
