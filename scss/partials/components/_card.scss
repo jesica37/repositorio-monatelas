@@ -14,10 +14,6 @@
     width: 250px;
   }
 
-  &:hover {
-    transform: scale(0.9);
-  }
-
   .telas img {
     width: 200px;
     height: 200px;
@@ -36,7 +32,7 @@
 
 @media (max-width: 450px) {
   .telas-container {
-    margin: 0px;
+    margin:16px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
